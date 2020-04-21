@@ -4,8 +4,10 @@ Personal build of suckless st - simple terminal
 patches applied:
 ----------------
 
-- st-alpha-0.8.2.diff                     - This patch allows users to change the opacity of the background. Note that you need an X composite manager (e.g. compton, xcompmgr) to make this patch effective.
-- st-boxdraw_v2-0.8.2.diff                - Custom rendering of lines/blocks/braille characters for gapless alignment.
+- st-alpha-0.8.2.diff
+'This patch allows users to change the opacity of the background. Note that you need an X composite manager (e.g. compton, xcompmgr) to make this patch effective.'
+- st-boxdraw_v2-0.8.2.diff
+'Custom rendering of lines/blocks/braille characters for gapless alignment.'
 - st-copyurl-20190202-3be4cf1.diff        - Select and copy the last URL displayed with Mod1+l. Multiple invocations cycle through the available URLs. URLs spanning multiple lines are not handled.
 - st-dracula-0.8.2.diff                   - Dracula is a color scheme made by Zeno Rocha based on Solarized. This patch make the Dracula color scheme available for st.
 - st-font2-0.8.2.diff                     - This patch allows to add spare font besides default. Some glyphs can be not present in default font.
