@@ -4,7 +4,7 @@ Personal build of suckless st - simple terminal
 patches applied: 
 ----------------
 
-(are included separetely in own directory):
+(are also included separetely in own directory)
 
 - st-alpha-0.8.2.diff
 ```
