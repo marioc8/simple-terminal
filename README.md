@@ -1,8 +1,10 @@
 Personal build of suckless st - simple terminal
 ===============================================
 
-patches applied (are included separetely in own directory):
------------------------------------------------------------
+patches applied: 
+----------------
+
+(are included separetely in own directory):
 
 - st-alpha-0.8.2.diff
 ```
@@ -45,10 +47,12 @@ Vertically center lines in the space available if you have set a larger chscale 
 
 The warning means You did not check the return value of system(...). To avoid this warning, simply check the return value!
 
+```
 int systemRet = system(commandLine);
 if(systemRet == -1){
   // The system method failed
   }
+```
 
 This is, as system is not guaranteed to succeed.
 
