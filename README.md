@@ -4,7 +4,7 @@ Personal build of suckless st - simple terminal
 patches applied: 
 ----------------
 
-(are also included separetely in own directory)
+(are also included separetely in its own directory)
 
 - st-alpha-0.8.2.diff
 ```
@@ -15,8 +15,8 @@ Note that you need an X composite manager (e.g. compton, xcompmgr) to make this 
 - st-anysize-0.8.1.diff
 ```
 This patch allows st to resize to any pixel size, makes the inner border size dynamic,
-nd centers the content of the terminal so that the left/right and top/bottom borders are balanced.
-ith this patch, st on a tiling WM will always fill the entire space allocated to it.
+and centers the content of the terminal so that the left/right and top/bottom borders are balanced.
+With this patch, st on a tiling WM will always fill the entire space allocated to it.
 ```
 
 - st-clipboard-0.8.3.diff
@@ -44,7 +44,7 @@ https://st.suckless.org/patches/vim_browse/
 - st-newterm-0.8.2.diff
 ```
 This patch allows you to spawn a new st terminal using Ctrl-Shift-Return.
-t will have the same CWD (current working directory) as the original st instance.
+It will have the same CWD (current working directory) as the original st instance.
 ```
 
 - st-openclipboard-20190202-0.8.1.diff
@@ -56,7 +56,7 @@ The clipboard in this case refers to the CLIPBOARD selection which gets populate
 
 - st-selectionbg-alpha-0.8.2.diff
 ```
-s patch works with selectioncolors and alpha patches to make selection background color transparent.
+This patch works with selectioncolors and alpha patches to make selection background color transparent.
 ```
 
 - st-spoiler-20180309-c5ba9c0.diff
