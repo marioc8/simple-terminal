@@ -4,6 +4,7 @@ Personal build of suckless st - simple terminal
 keybindings:
 ------------
 
+```
 - alt + c               vimBrowse
 
 - ctrl + shift + h      font size -2
@@ -24,6 +25,7 @@ keybindings:
 
 - alt + i               find http url in terminal screen
 - alt + o               open selected link in browser
+```
 
 patches applied: 
 ----------------
