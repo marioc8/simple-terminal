@@ -4,8 +4,9 @@ Personal build of suckless st - simple terminal
 keybindings:
 ------------
 
+```alt + c               vimBrowse```
+[keys and other details](https://st.suckless.org/patches/vim_browse/)
 ```
-alt + c               vimBrowse     [keys and details](https://st.suckless.org/patches/vim_browse/)
 
 ctrl + shift + h      font size -2
 ctrl + shift + j      font size -1
@@ -98,8 +99,8 @@ Vertically center lines in the space available if you have set a larger chscale 
 This patch offers the possibility to move through the terminal history,
 search for strings and use VIM-like motions, operations and quantifiers.
 
-[keys and other details](https://st.suckless.org/patches/vim_browse/)
 ```
+[keys and other details](https://st.suckless.org/patches/vim_browse/)
 
 - st-visualbell2-basic-2018-10-16-30ec9a3.diff
 ```
