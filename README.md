@@ -1,12 +1,14 @@
 Personal build of suckless st - simple terminal
 ===============================================
 
+[suckless simple terminal](https://st.suckless.org/)
+[vimBrowse details details](https://st.suckless.org/patches/vim_browse/)
+
 keybindings:
 ------------
 
-```alt + c               vimBrowse```
-[keys and other details](https://st.suckless.org/patches/vim_browse/)
 ```
+alt + c               vimBrowse
 ctrl + shift + h      font size -2
 ctrl + shift + j      font size -1
 ctrl + shift + k      font size +1
