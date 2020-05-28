@@ -9,6 +9,7 @@ keybindings:
 
 ```
 alt + c               vimBrowse
+
 ctrl + shift + h      font size -2
 ctrl + shift + j      font size -1
 ctrl + shift + k      font size +1
