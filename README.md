@@ -1,6 +1,30 @@
 Personal build of suckless st - simple terminal
 ===============================================
 
+keybindings:
+------------
+
+alt + c               vimBrowse
+
+ctrl + shift + h      font size -2
+ctrl + shift + j      font size -1
+ctrl + shift + k      font size +1
+ctrl + shift + l      font size +2
+ctrl + shift + Home   reset zoom
+
+ctrl + shift + c      copy to clipboard
+ctrl + shift + v      paste from clipboard
+
+alt + Enter           spawn new terminal with the same CWD
+
+alt + h               scroll page down
+alt + j               scroll one line down
+alt + k               scroll one line up
+alt + l               scroll page up
+
+alt + i               find http url in terminal screen
+alt + o               open selected link in browser
+
 patches applied: 
 ----------------
 
