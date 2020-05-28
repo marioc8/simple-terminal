@@ -7,7 +7,6 @@ keybindings:
 ```alt + c               vimBrowse```
 [keys and other details](https://st.suckless.org/patches/vim_browse/)
 ```
-
 ctrl + shift + h      font size -2
 ctrl + shift + j      font size -1
 ctrl + shift + k      font size +1
@@ -94,13 +93,12 @@ Use inverted defaultbg/fg for selection when bg/fg are the same.
 Vertically center lines in the space available if you have set a larger chscale in config.h.
 ```
 
-- st-vimBrowse-20200212-26cdfeb.diff
+- st-vimBrowse-20200212-26cdfeb.diff [keys and other details](https://st.suckless.org/patches/vim_browse/)
 ```
 This patch offers the possibility to move through the terminal history,
 search for strings and use VIM-like motions, operations and quantifiers.
 
 ```
-[keys and other details](https://st.suckless.org/patches/vim_browse/)
 
 - st-visualbell2-basic-2018-10-16-30ec9a3.diff
 ```
