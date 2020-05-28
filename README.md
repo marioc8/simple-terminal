@@ -2,7 +2,7 @@ Personal build of suckless st - simple terminal
 ===============================================
 
 - [suckless simple terminal](https://st.suckless.org/)
-- [vimBrowse details](https://st.suckless.org/patches/vim_browse/)
+- [vimBrowse patch details](https://st.suckless.org/patches/vim_browse/)
 
 keybindings:
 ------------
