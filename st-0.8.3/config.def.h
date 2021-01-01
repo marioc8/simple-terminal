@@ -221,11 +221,13 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
+/*
 	{ AltMask,              XK_Return,      newterm,        {.i =  0} },
 	{ AltMask,              XK_h,           kscrolldown,    {.i = -1} },
 	{ AltMask,              XK_j,           kscrolldown,    {.i =  1} },
 	{ AltMask,              XK_k,           kscrollup,      {.i =  1} },
 	{ AltMask,              XK_l,           kscrollup,      {.i = -1} },
+*/
 	{ AltMask,              XK_i,           copyurl,        {.i =  0} },
 	{ AltMask,              XK_o,           opencopied,     {.v = "xdg-open"} },
 };
