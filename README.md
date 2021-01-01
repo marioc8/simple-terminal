@@ -8,8 +8,6 @@ keybindings:
 ------------
 
 ```
-alt + c               vimBrowse
-
 ctrl + shift + h      font size -2
 ctrl + shift + j      font size -1
 ctrl + shift + k      font size +1
@@ -18,8 +16,6 @@ ctrl + shift + Home   reset font size
 
 ctrl + shift + c      copy to clipboard
 ctrl + shift + v      paste from clipboard
-
-alt + Enter           spawn new terminal with the same CWD
 
 alt + h               scroll page down
 alt + j               scroll one line down
@@ -68,12 +64,6 @@ Dracula is a color scheme made by Zeno Rocha based on Solarized.
 This patch make the Dracula color scheme available for st.
 ```
 
-- st-newterm-0.8.2.diff
-```
-This patch allows you to spawn a new st terminal using Ctrl-Shift-Return.
-It will have the same CWD (current working directory) as the original st instance.
-```
-
 - st-openclipboard-20190202-0.8.1.diff
 ```
 Open contents of the clipboard in a user-defined browser.
@@ -94,13 +84,6 @@ Use inverted defaultbg/fg for selection when bg/fg are the same.
 - st-vertcenter-20180320-6ac8c8a.diff
 ```
 Vertically center lines in the space available if you have set a larger chscale in config.h.
-```
-
-- st-vimBrowse-20200212-26cdfeb.diff [keys and other details](https://st.suckless.org/patches/vim_browse/)
-```
-This patch offers the possibility to move through the terminal history,
-search for strings and use VIM-like motions, operations and quantifiers.
-
 ```
 
 - st-visualbell2-basic-2018-10-16-30ec9a3.diff
